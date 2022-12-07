@@ -1,0 +1,23 @@
+body{
+    margin: 30px 50px 30px 60px;
+    border: solid 1px grey;
+    padding: 20x;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: red ;
+    background-color: aqua;
+    border: dashed 2px deeppink;
+    padding: 10px 20px 30px 15px;
+}
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: fuchsia;
+    background-color: greenyellow;
+    border: dashed 2px darkred;
+    padding: 20px 30px;
+    margin: 10px;
+    height:100px;
+    width:500px;
+
+}

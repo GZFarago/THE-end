@@ -1,0 +1,36 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+div{
+    height: 150px;
+    width: 400px;
+    margin: 1px;
+
+}
+.box01{
+    position:static;
+    background-color: yellow;
+}
+.box02{
+    position: relative;/*altera o posicionamento em posição ao onde o box foi definido*/
+    left: 400px; 
+    bottom: 20px;
+    background-color: green;
+}
+.box03{
+    background-color: brown;
+    position: absolute;
+    bottom:100px ;
+    left: 400px;
+}
+.box04{
+    background-color: palegreen;
+    position: fixed;
+    top:0;
+}
+.box05{
+    background-color: blueviolet;
+    position: sticky;
+    bottom: 500px;
+}

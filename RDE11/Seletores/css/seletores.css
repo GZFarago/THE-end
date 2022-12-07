@@ -1,0 +1,58 @@
+div{
+    background-color: crimson;
+    color:darkslateblue;
+    font-family:sans-serif;
+
+}
+.b1{
+    background-color: green ;
+    color:honeydew;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid yellowgreen;
+    width: 50px;
+    height: 30px;
+}
+.b2{
+    background-color: black ;
+    color:honeydew;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid lightgray;
+    width: 100px;
+    height: 40px;
+}
+.agrupamento{
+    background-color: lightblue ;
+    color: darkred;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid darkred;
+    width: 1000px;
+    height: 400px;
+}
+#unico{
+    background-color: darkred ;
+    color: lightblue;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid lightblue;
+    width: 1000px;
+    height: 400px;
+}
+.personalizado{
+    background-color: lightsalmon;
+    color: darkslategray;
+    margin: 20px;
+    padding: 10px;
+    border: indianred;
+
+}
+.personalizado:hover{
+    border:5px solid purple;
+    background-color: magenta;
+}
+.pseudo::selection{
+    color: 5px solid blue;
+    background-color: darkslateblue;
+}

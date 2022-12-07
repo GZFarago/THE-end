@@ -1,0 +1,18 @@
+body{
+    background-color: teal;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: turquoise;
+    color: rgb(50, 50, 170);
+    text-align: center;
+}
+h2{
+    color: deepskyblue;
+}
+h3{
+    color: cornflowerblue;
+}
+p, ul{
+    color: midnightblue;
+}

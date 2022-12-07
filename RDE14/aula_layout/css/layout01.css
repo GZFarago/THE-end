@@ -1,0 +1,58 @@
+body{ /*estilização do corpo do site*/
+    font-family:Arial, Helvetica, sans-serif; /*fonte*/
+    width: 90%; /*tamanho que ocupa na janela do navegador*/
+    margin: 0 auto; /*distribuição do conteudo dentro do espeaço definido*/
+    background: linear-gradient(to right, #0b1726, #1f3f66); /*degrade*/
+}
+header{/*definir cabeçalho*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius: 5px;/*arredonda os cantos*/
+    margin-top: 10px;
+}
+.logo img{ /*estilizando a imagem do logo*/
+    width: 40%; /*define tamanho da imagem em relação ao navegador*/
+    padding-top: 40px ; /**/
+}
+.navegacao{ /*estilizando a navegação*/
+    overflow: hidden;/**/
+}
+.navegacao a{ /*estilizando hyperlinks da barra de navegação*/
+    float:right; /*disposição dos hyperlinks a direita*/
+    color: rgb(173,173,173); /*cor da fonte*/
+    text-decoration: none;/*decoração do texto*/
+    padding: 7px;/* espaçamento de texto*/
+}
+.navegacao a:hover{
+    color:#e32936;
+    background-color: black;
+}
+.principal{
+    display: flex; /*organiza a disposição do conteudo, neste caso uma ao lado da outra*/
+    flex-direction: row; /**/
+    
+}
+.conteudo{  /*estilização do conteudo*/
+    float: left; /*disposição do conteúdo*/
+    background-color: rgb(255, 241, 243);
+    text-align: justify;
+    padding: 15px;
+    margin: 15px 10px 25px 10px; /*definindo margem*/
+    border-radius: 5px;/*margen arreodondada*/
+    box-shadow: 10px 10px 10px #08101a98; /*sombreamento*/
+
+}
+.rodape{
+    color: darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+@media screen and (max-width:600px){/*alteração do layout quando a pagina esta com certo tamanho*/
+    .body, .principal, .conteudo{/*define os escopos a serem alterados*/
+        width:100%;
+        flex-direction:column;
+        padding: 0px;
+    }
+}
